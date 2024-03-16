@@ -6,14 +6,14 @@ wn.title("Maze Try")
 wn.setup(750,750)
 wn.screensize(500,500,bg="white")
 
+maze_code = wn.textinput("Maze Code", "Enter the maze code:")
+
 pen = turtle.Turtle()
 pen.color("black")
 
 directions1 = ["right", "left"]
 directions2 = directions1 + ["up"]
 directions3 = directions2 + ["down"]
-
-maze_code = "S2121011011111111111F"
 
 
 def possibilites(maze_code):
